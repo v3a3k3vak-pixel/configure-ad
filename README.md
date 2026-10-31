@@ -52,10 +52,12 @@ Now we will log back into DC-1 to install AD Users & Computers. Promote the VM t
 </p>
 Excellent! We can start creating Organizational Units (OU). Let's first create an OU named _EMPLOYEES. Create another OU named _ADMINS. In order to do that right click on the domain area. Select new->Organizational Unit and fill out the field. Then click inside of your OU and right click, select new and select user and fill out the information for your new user. The user should be named Jane Doe, she is going to be an Admin so her username will be Jane_admin. Lastly add Jane to the domain admins security group. 
 </p>
-<img src="https://i.imgur.com/hL7g5Y5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1046" height="732" alt="Screenshot 2026-10-31 151346" src="https://github.com/user-attachments/assets/8c5b210f-ed37-4141-958a-d2eda32924cf" />
+
 <br />
 </p>
-<img src="https://i.imgur.com/kcgvzdE.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img width="1038" height="731" alt="Screenshot 2026-10-31 151523" src="https://github.com/user-attachments/assets/55a7a31e-c4d6-4fb2-ba56-871befb61828" />
+
 From now on you can use Jane_admin as the administrator account. Now we will join Client-1 to the domain (mydomain.com) from the azure portal we will change client-1's DNS settings to the DC's Private IP address. After you do that restart Client-1 from within the Azure portal. Our picture below shows verification that client-1 is on the DC-1 DNS. 
 </p>
 <img src="https://i.imgur.com/jbrGTXW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
