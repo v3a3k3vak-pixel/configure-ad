@@ -75,7 +75,8 @@ We have to join Client-1 to the domain in order to do so navigate to your system
 <br />
 <p>
   <p>
-<img src="https://i.imgur.com/Ze0Em5e.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1033" height="742" alt="image" src="https://github.com/user-attachments/assets/7318cd29-3374-4d99-830b-e3d86aa2e293" />
+
 </p>
 <p>
 Wonderufl Client-1 is now a part of the domain. Now we will set up remote desktop for non-administrative users on Client-1. We have to log into Client-1 as an admin and open system properties. Click on "Remote Desktop", allow "domain users" access to remote desktop. After completing those steps you should be able to log into Client-1 as a normal user.
