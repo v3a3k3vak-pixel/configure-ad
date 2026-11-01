@@ -92,13 +92,13 @@ Wonderufl Client-1 is now a part of the domain. Now we will set up remote deskto
 Lastly to verify that noraml users can RDP into Client-1 we will use a script to generate thousands of users into the domain. We will input the script in powershell, after the users are created we will select one and RDP into Client-1.
 </p>
 <br />
-<img src="https://i.imgur.com/EzWG8ug.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1048" height="745" alt="Screenshot 2026-11-01 070340" src="https://github.com/user-attachments/assets/a43d6df0-6826-4c1a-96e8-07560703f79d" />
+
 <p>
 <p>
   <p>
-<img src="https://i.imgur.com/Gkpe68K.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
-</p>
-<img src="https://i.imgur.com/n3gMwQV.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
-<p>
+<img width="752" height="537" alt="Screenshot 2026-11-01 070835" src="https://github.com/user-attachments/assets/8a8adc7b-4649-425a-bafc-571557224c92" />
+
+
 As you can see the Powershell script created a user with the username "bab.hubo" We were able to login to Client-1 with his credentials as a normal user. 
 </p>
